@@ -8,7 +8,7 @@ import { persist } from "zustand/middleware";
 export const useAuthStore = create()(
   persist(
     (set) => ({
-      role: "Super Vendor",
+      role: null,
       setRole: (role) => set({ role }),
       logout: () => set({ role: null }),
     }),

@@ -19,7 +19,7 @@ export default function App() {
       <Route path="/login" element={<LoginPage />} />
       <Route
         path="/"
-        element={<Navigate to="/dashboard" replace />}
+        element={<Navigate to="/login" replace />}
       />
 
       {/* Protected Routes wrapped in AppShell */}
